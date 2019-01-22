@@ -1,0 +1,14 @@
+: root {
+  --color-primary: #a64a9a;
+  --color-secondary: #206766;
+  --color-secondary-light: #56b09e;
+  --color-neutral: #9Baba4;
+  --color-neutral-dark: #403f3f;
+  --font-primary: "Mystery Quest", cursive;
+  --font-secondary: "Noto Sans", sans-serif;
+}
+
+
+html {
+  font-family: var(--font-primary);
+}
