@@ -4,7 +4,7 @@
   --color-secondary-light: #56b09e;
   --color-neutral: #9Baba4;
   --color-neutral-dark: #403f3f;
---font-primary: "Noto Sans", sans-serif;
+  --font-primary: "Noto Serif SC", serif;
   --font-secondary: "Mystery Quest", cursive;
 
 }
@@ -12,4 +12,31 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+}
+cite {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+a {
+  color: #fff;
+}
+
+b {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+ol, ul, dl {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
 }
