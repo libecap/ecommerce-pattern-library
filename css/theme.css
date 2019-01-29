@@ -36,7 +36,12 @@ b {
   font-weight: bold;
 }
 
-ol, ul, dl {
+ol, ul, dl, q {
   font-family: var(--font-primary);
   color: var(--color-secondary);
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
 }
