@@ -1,17 +1,17 @@
 :root {
-  --color-primary: #a64a9a;
-  --color-secondary: #206766;
-  --color-secondary-light: #56b09e;
+  --color-primary: #db69da;
+  --color-secondary: #007574;
+  --color-secondary-light: #61c7b3;
   --color-neutral: #9Baba4;
   --color-neutral-dark: #403f3f;
   --font-primary: "Noto Serif SC", serif;
   --font-secondary: "Mystery Quest", cursive;
-
 }
 
 
 html {
   font-family: var(--font-primary);
+  color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +27,9 @@ cite {
   font-weight: 300;
 }
 
+mark {
+  background-color: var(--color-secondary-light);
+}
 a {
   color: #fff;
 }
@@ -38,7 +41,7 @@ b {
 
 ol, ul, dl, q {
   font-family: var(--font-primary);
-  color: var(--color-secondary);
+  color: var(--color-secondary-light);
 }
 
 cite {

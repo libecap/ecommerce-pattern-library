@@ -5,3 +5,19 @@ patternbot:
   description: |
     Charmed Potatoes that remove nasty hexes and improve your fortune!
   font_url: "https://fonts.googleapis.com/css?family=Mystery+Quest|Noto+Serif+SC:300,400,700"
+  colors:
+    background: "--color-neutral-dark"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-secondary-light"
+  rationales:
+    typefaces.primary: |
+      Noto Serif SC was selected because as the body text it is easy to read and it complements the header typeface.
+    typefaces.secondary: |
+      Mystery Quest was used for the headers to give the website a more bewitched/magical feel.
+    colors.primary: |
+      The primary colour is a purple to represent mysticism and spells. It is a colour that is used frequently on competitor sites and in pop culture referencing magic.
+    colors.secondary: |
+      The secondary colour is a kind of turquoise that is frequently used in movies and imagry for potions, ampulets and other magical items.
+    colors.neutral: |
+      These colours are used to aid and enhance the primary and secondary colours.
