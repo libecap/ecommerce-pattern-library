@@ -4,6 +4,7 @@
   border-color: var(--color-primary);
   overflow: hidden;
   box-shadow: 0 .1em .4em var(--color-neutral);
+  background-color: #000;
 }
 
 .action-btn {

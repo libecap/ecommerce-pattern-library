@@ -1,0 +1,7 @@
+figure {
+  border: solid 4px var(--color-secondary-light);
+  border-radius: 8px;
+}
+ figcaption {
+   background-color: #292828;
+ }

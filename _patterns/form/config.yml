@@ -1,0 +1,33 @@
+title: "Form"
+description: |
+  The form can be used when creating a checkout page, contact page, or a survey
+
+patterns:
+  dropdown-menu:
+    title: "Dropdown Menu"
+    description: |
+      Use the Dropdown menu when grouping content that falls within the same theme
+  checklist:
+    title: "Checklist"
+    description: |
+      Use the checklist when you'd like the user to select more than one option
+  email:
+    title: "Email"
+    description: |
+      Use the email input when an email address is required
+    name:
+      title: "Name"
+      description: |
+        Use the name input when collecting the user's first and last name
+  radial-btn:
+    title: "Radial Button"
+    description: |
+      Use a radial button when you want the user to select only one options
+  text-box:
+    title: "Text Box"
+    description: |
+      Include a text box at the bottom of the form or fieldset if it is related to a subsection of the form. Typically the text box info is optional
+  fieldset:
+    title: "Fieldset"
+    description: |
+      use a fieldset to seperate different sections of a form

@@ -21,3 +21,7 @@ patterns:
     title: "Magic"
     description: |
       The Magic button is for entertainment. It should only be used once on a page and ideally with no other buttons on the same page.
+  form-btn:
+    title: "Send Form"
+    description: |
+      Use this button at the end of any forms
