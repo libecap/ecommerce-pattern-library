@@ -39,7 +39,7 @@ b {
   font-weight: bold;
 }
 
-ol, ul, dl, q {
+ol, ul, dl, q, {
   font-family: var(--font-primary);
   color: var(--color-secondary-light);
 }

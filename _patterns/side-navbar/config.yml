@@ -3,8 +3,14 @@ description: |
   To be used when navigating to different areas of the same section
 
 patterns:
-  products:
-    title: "Products"
+  basic:
+    title: "Sections"
     description: |
-      Used to switch between different products
+      Used to switch between different sections
+    width: "20em"
+
+  nav-list:
+    title: "Item List"
+    description: |
+      Used to quickly switch between different items
     width: "20em"
