@@ -1,0 +1,14 @@
+title: "Figures"
+description: |
+  The form can be used when creating a checkout page, contact page, or a survey
+
+patterns:
+  founder-bg:
+    title: "Inline figure/figcaption"
+    description: |
+      Use this type of figure when you want the text to sit beside the image at larger screen sizes
+  time-travel:
+    title: "block figure"
+    description: |
+      Use this type of figure when you always want the text to sit below the image
+    width: "20em"
