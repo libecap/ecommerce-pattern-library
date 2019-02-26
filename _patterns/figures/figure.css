@@ -2,6 +2,9 @@ figure {
   border: solid 4px var(--color-secondary-light);
   border-radius: 8px;
 }
- figcaption {
+.fig-content-center {
    background-color: #292828;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
  }

@@ -1,6 +1,11 @@
 html {
   font-family: sans-serif;
   background-color: var(--color-neutral-dark);
+
+}
+
+input, option, select, textarea {
+  color: #000;
 }
 
 fieldset {
