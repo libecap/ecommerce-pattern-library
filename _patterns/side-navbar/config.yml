@@ -1,0 +1,10 @@
+title: "Side Navbar"
+description: |
+  To be used when navigating to different areas of the same section
+
+patterns:
+  products:
+    title: "Products"
+    description: |
+      Used to switch between different products
+    width: "20em"
