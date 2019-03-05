@@ -30,3 +30,8 @@ patterns:
     description: |
       Use this button at the end of any forms
     width: "12em"
+  cart:
+    title: "Shopping Cart"
+    description: |
+      Use this button on mobile to access the shopping cart or within product item cards
+    width: "12em"

@@ -1,0 +1,17 @@
+.horizontal-nav ul li {
+  padding: 0, 2em;
+}
+
+.horizontal-nav h1 {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary-light);
+}
+
+a:hover {
+  color: var(--color-primary);
+  font-weight: bold;
+}

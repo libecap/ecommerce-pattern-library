@@ -1,0 +1,9 @@
+title: "Header/Footer"
+description: |
+  To be used once per page to help navigate through the website
+
+patterns:
+  horizontal-nav:
+    title: "Horizontal Navigation"
+    description: |
+      The Classic navigation, used when there are only a few other main sections
