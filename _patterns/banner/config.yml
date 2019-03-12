@@ -1,0 +1,13 @@
+title: "Banner"
+description: |
+  Use for call to action and hero banners
+
+patterns:
+  frustrated-banner:
+    title: "Frustrated"
+    description: |
+      Can be used to give the sense of frustation that comes with being cursed
+  main-banner:
+    title: "Main"
+    description: |
+      Use this banner as the default

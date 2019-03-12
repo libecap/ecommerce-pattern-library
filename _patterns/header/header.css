@@ -6,7 +6,7 @@
   color: #fff;
 }
 
-a {
+.contact, a {
   text-decoration: none;
   color: var(--color-secondary-light);
 }
@@ -14,4 +14,8 @@ a {
 a:hover {
   color: var(--color-primary);
   font-weight: bold;
+}
+
+header {
+  background-color: #2e2e2e;
 }

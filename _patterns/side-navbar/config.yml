@@ -14,3 +14,9 @@ patterns:
     description: |
       Used to quickly switch between different items
     width: "20em"
+
+  breadcrumbs:
+    title: "Breadcrumbs"
+    description: |
+      Can be used to help user navigate back within a section and know where they are
+    width: "20em"

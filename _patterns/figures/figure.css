@@ -8,3 +8,8 @@ figure {
    flex-direction: column;
    justify-content: center;
  }
+
+ .fig-bg {
+   background-color: #e2e2e2;
+
+ }

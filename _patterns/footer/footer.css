@@ -1,0 +1,7 @@
+.social i:hover {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+header, footer {
+  background-color: #2e2e2e;
+}
