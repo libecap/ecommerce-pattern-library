@@ -5,6 +5,9 @@ patternbot:
   description: |
     Charmed Potatoes that remove nasty hexes and improve your fortune!
   font_url: "https://fonts.googleapis.com/css?family=Mystery+Quest|Montserrat:300,400,700"
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
   colors:
     background: "--color-neutral-dark"
     accent: "--color-primary"
