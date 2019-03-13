@@ -5,8 +5,8 @@
     <img srcset="/images/smoke-banner-608.jpg 2x, /images/smoke-banner-320.jpg 1x" src="/images/banner-320.jpg" alt="">
   </picture>
   <div class="absolute pin-cb text-center island max-length">
-    <h1 class="push-1-2 tena">Alchemy Potatoes</h1>
-    <p class="push bold">Hexed? Cursed? Need a dependable charm? Look no further!</p>
-    {% pattern buttons/magic %}
+    <h1 class="push-1-2 tena">{{include.heading}}</h1>
+    <p class="push bold">{{include.text}}</p>
+      {% pattern buttons/magic url=include.button_url text=include.button_text %}
   </div>
 </div>

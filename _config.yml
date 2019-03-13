@@ -24,3 +24,11 @@ patternbot:
       The secondary colour is a kind of turquoise that is frequently used in movies and imagry for potions, ampulets and other magical items.
     colors.neutral: |
       These colours are used to aid and enhance the primary and secondary colours.
+collections:
+    products:
+        output: true
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

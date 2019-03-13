@@ -1,7 +1,6 @@
 title: "Form"
 description: |
   The form can be used when creating a checkout page, contact page, or a survey
-
 patterns:
   dropdown-menu:
     title: "Dropdown Menu"
