@@ -3,25 +3,13 @@ description: |
   The form can be used when creating a product description. Use corresponding icon with product description
 
 patterns:
-  curse:
-    title: "Curse"
+  product-card:
+    title: "Evil be Gone!"
     description: |
-      Use this type of card when creating a curse product
+      Use this type of card for products
     fields:
       - name: data
         type: object
         data:
           source: "site.products[0]"
           type: Product
-  potion:
-    title: "Potion"
-    description: |
-      Use this type of card for potion products
-  incantation:
-    title: "Incantation"
-    description: |
-      Use this type of card for incantation products
-  hex:
-    title: "Hex"
-    description: |
-      Use this type of card for hex products
