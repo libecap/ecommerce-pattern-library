@@ -7,7 +7,7 @@
             <menu class="action-tools-top absolute pin-lt list-group-inline island-1-2">
               <li>
                 <button class="btn action-btn">
-                  <i class="icon i-96">
+                  <i class="icon i-64">
                     <svg><use xlink:href="{{include.data.icon}}" /></svg>
                   </i>
                 </button>
@@ -18,7 +18,7 @@
           <div class="island bg-colour max-length">
             <h2 class="push-1-8">{{include.data.name}}</h2>
             <p>{{include.data.description}}</p>
-            <p class="pad-b-1-2">${{include.data.price}}</p>
+            <p class="pad-b-1-2 price">${{include.data.price}}</p>
             {% pattern buttons/buy text="Add to Cart" url="include.data.url" %}
           </div>
         </header>

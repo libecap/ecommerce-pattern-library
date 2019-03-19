@@ -5,4 +5,5 @@ description: |
 image: "/images/potato.jpg"
 price: 35
 repellent-category: "Potion"
+icon: "/images/icons.svg#potions"
 ---
