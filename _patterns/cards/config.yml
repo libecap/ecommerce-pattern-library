@@ -7,6 +7,12 @@ patterns:
     title: "Curse"
     description: |
       Use this type of card when creating a curse product
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   potion:
     title: "Potion"
     description: |

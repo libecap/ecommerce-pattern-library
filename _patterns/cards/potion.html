@@ -12,12 +12,13 @@
                 </button>
               </li>
             </menu>
-            <img class="img-flex" src="/images/potato.jpg" alt="potato-charm">
+            <img class="img-flex" src="{{include.data.image}}" alt="potato-charm">
           </div>
           <div class="island bg-colour max-length">
-            <h2 class="push-1-8">Genius Potion</h2>
-            <p class="pad-b">Place in water for 24 hrs before drinking to activate genius part of brain.</p>
-            {% pattern buttons/basic %}
+            <h2 class="push-1-8">{{include.data.name}}</h2>
+            <p>{{include.data.description}}</p>
+            <p class="pad-b">{{include.data.price}}</p>
+            {% pattern buttons/cart text="Add to Cart" url="/products/" %}
           </div>
         </header>
       </article>

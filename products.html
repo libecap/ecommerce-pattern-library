@@ -4,3 +4,6 @@ highlight_nav: products
 ---
 
 {% pattern banner/frustrated-banner heading="Alchemy Potatoes" text="Hexed? Cursed? Need a dependable charm? Look no further!" %}
+{% for prodcut in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}

@@ -12,12 +12,13 @@
                 </button>
               </li>
             </menu>
-            <img class="img-flex" src="/images/potato.jpg" alt="potato-charm">
+            <img class="img-flex" src="{{include.data.image}}" alt="potato-charm">
           </div>
           <div class="island bg-colour max-length">
-            <h2 class="push-1-8">Gym Hex</h2>
-            <p class="pad-b">No time for the gym? Want to see instant gains? This is the charm for you. Place underneath longsleeve shirt to target your biceps!</p>
-            {% pattern buttons/basic %}
+            <h2 class="push-1-8">{{include.data.name}}</h2>
+            <p>{{include.data.description}}</p>
+            <p class="pad-b">{{include.data.price}}</p>
+            {% pattern buttons/cart text="Add to Cart" url="/products/" %}
           </div>
         </header>
       </article>
