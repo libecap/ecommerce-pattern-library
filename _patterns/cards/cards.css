@@ -53,3 +53,13 @@ menu {
 .price {
   color: #ffd700;
 }
+
+.right {
+  padding-right: .75em;
+  padding-bottom: .75em;
+}
+
+.left {
+  padding-left: 1.3rem;
+  padding-bottom: 1rem;
+}
