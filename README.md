@@ -33,3 +33,10 @@ Created by Davey Seeds, A long time alchemist who was tired of phony charms. Alc
 Look for the website-wireframes folder for screenshots on how to build the page based on the layout design.
 
 ---
+
+## Collaborators
+
+- [@FrancescoIaderosa92](https://github.com/FrancescoIaderosa92/ecommerce-pattern-library)
+- [@libecap](https://github.com/libecap/ecommerce-pattern-library)
+
+---
