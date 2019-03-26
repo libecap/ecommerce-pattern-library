@@ -2,19 +2,19 @@
   <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2">
     <div class="grid">
       <div class="pad-b unit xs-1 s-1 m-1 l-1">
-        <img class="img-flex" src="{{include.image}}" alt="potato-charm">
+        <img class="img-flex" src="{{page.image}}" alt="potato-charm">
       </div>
       <div class=" left unit xs-1-2 s-1-2 m-1-2 l-1-2">
-        <img class="img-flex" src="{{include.image}}" alt="potato-charm">
+        <img class="img-flex" src="{{page.image}}" alt="potato-charm">
       </div>
       <div class="right unit xs-1-2 s-1-2 m-1-2 l-1-2">
-        <img class="img-flex" src="{{include.image}}" alt="potato-charm">
+        <img class="img-flex" src="{{page.image}}" alt="potato-charm">
       </div>
     </div>
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-    <h2>{{include.heading}}</h2>
-    <p>{{include.text}}</p>
+    <h2>{{page.name}}</h2>
+    <p>{{page.description}}</p>
     {% pattern form/quantity %}
     {% pattern buttons/buy %}
   </div>

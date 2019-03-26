@@ -7,13 +7,10 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Genius Potion"
       - name: text
         type: string
-        example: "Place in water for 24 hrs before drinking to stimulate genius part of brain"
       - name: image
         type: url
-        example: "/images/potato.jpg"
     title: "Product Details"
     description: |
       Use this layout for the product description
