@@ -9,7 +9,9 @@ figure {
    justify-content: center;
  }
 
- .fig-bg {
-   background-color: #e2e2e2;
+.fig-bg {
+  background-color: #e2e2e2;
+  max-width: 400px;
+  margin: auto;
 
  }
