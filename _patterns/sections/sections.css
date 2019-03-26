@@ -23,3 +23,7 @@
 .suggestions p:hover {
   font-style: normal;
 }
+
+.section-color {
+  color: var(--color-primary);
+}
