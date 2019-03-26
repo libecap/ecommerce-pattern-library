@@ -5,3 +5,21 @@
 .right {
   padding-left: .5em;
 }
+
+.supplement {
+  border: solid 1px var(--color-secondary-light);
+}
+
+.suggestions p {
+  color: #fff;
+}
+
+.supplement:hover {
+  background-color: #2e2e2e;
+  top: 2px;
+  border: solid 4px var(--color-secondary-light);
+}
+
+.suggestions p:hover {
+  font-style: normal;
+}
