@@ -4,7 +4,7 @@ patternbot:
   title: Potato Alchemy
   description: |
     Charmed Potatoes that remove nasty hexes and improve your fortune!
-  font_url: "https://fonts.googleapis.com/css?family=Mystery+Quest|Montserrat:300,400,700"
+  font_url: "https://use.typekit.net/pkc3cir.css"
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header & footer.
@@ -17,7 +17,7 @@ patternbot:
     typefaces.primary: |
       Montserrat was selected because as the body text it is easy to read and it complements the header typeface.
     typefaces.secondary: |
-      Mystery Quest was used for the headers to give the website a more bewitched/magical feel.
+      Professor Minty was used for the headers to give the website a more bewitched/magical feel.
     colors.primary: |
       The primary colour is a purple to represent mysticism and spells. It is a colour that is used frequently on competitor sites and in pop culture referencing magic.
     colors.secondary: |
