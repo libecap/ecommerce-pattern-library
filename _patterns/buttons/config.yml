@@ -7,7 +7,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "GET CHARMED!"
+        example: "Get Charmed"
       - name: url
         type: url
         example: "/products/"
@@ -76,4 +76,16 @@ patterns:
     title: "Shopping Cart"
     description: |
       Use this button on mobile to access the shopping cart or within product item cards
+    width: "12em"
+  update-btn:
+    fields:
+      - name: text
+        type: string
+        example: "Update Cart"
+      - name: url
+        type: url
+        example: "/products/"
+    title: "Update Cart"
+    description: |
+      Use this button on mobile to update the shopping cart
     width: "12em"

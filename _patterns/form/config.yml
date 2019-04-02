@@ -14,10 +14,14 @@ patterns:
     title: "Email"
     description: |
       Use the email input when an email address is required
-    name:
-      title: "Name"
-      description: |
-        Use the name input when collecting the user's first and last name
+  name:
+    fields:
+    - name: text
+      type: string
+      example: "Enter name"
+    title: "Name"
+    description: |
+      Use the name input when collecting the user's first and last name
   radial-btn:
     title: "Radial Button"
     description: |

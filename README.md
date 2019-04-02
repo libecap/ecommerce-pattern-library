@@ -38,5 +38,7 @@ Look for the website-wireframes folder for screenshots on how to build the page 
 
 - [@FrancescoIaderosa92](https://github.com/FrancescoIaderosa92/ecommerce-pattern-library)
 - [@libecap](https://github.com/libecap/ecommerce-pattern-library)
+- [@hovski] (https://github.com/hovski/ecommerce-pattern-library)
+
 
 ---

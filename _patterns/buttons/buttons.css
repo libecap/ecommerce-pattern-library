@@ -38,6 +38,12 @@
   box-shadow: 8px 8px 20px rgba(110,73,108, .5);
 }
 
+.update-btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
 @keyframes float {
   0% {top: -10px;}
   50% {top: 10px}
