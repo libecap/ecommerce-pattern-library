@@ -2,3 +2,43 @@
 layout: default
 highlight_nav: checkout
 ---
+
+<h1 class="push-0 island">My Order</h1>
+<h2 class="island push-0">Shipping Address</h2>
+
+<div class="grid island-1-2">
+
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="First Name" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="Last Name" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="Street Address" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="Phone Number" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="Country" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="Province" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="City" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="Postal Code" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/name name="Credit Card Info" %}
+</div>
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+{% pattern form/date %}
+</div>
+<div class="unit gutter-1-2">
+{% pattern buttons/form-btn text="Submit" url="/products/" %}
+</div>
+</div>
