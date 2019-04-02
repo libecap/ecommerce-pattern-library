@@ -14,6 +14,11 @@
   color: #fff;
 }
 
+.supplement {
+  background-color: var(--color-card);
+  box-shadow: 5px 10px var(--color-sidebar);
+}
+
 .supplement:hover {
   background-color: #2e2e2e;
   top: 2px;

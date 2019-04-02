@@ -12,8 +12,8 @@ a:hover {
   font-weight: bold;
 }
 
-header {
-  background-color: #2e2e2e;
+.horizontal-nav {
+  background-color: var(--color-header);
 }
 
 .current {
