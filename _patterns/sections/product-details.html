@@ -13,9 +13,11 @@
     </div>
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-    <h2>{{page.name}}</h2>
-    <p>{{page.description}}</p>
-    {% pattern form/quantity %}
-    {% pattern buttons/buy %}
+
+    <p class="pad-t pad-b max-length">{{page.description}}</p>
+    <div clsas="pad-t-2">
+      {% pattern form/quantity %}
+      {% pattern buttons/buy %}
+    </div>
   </div>
 </div>

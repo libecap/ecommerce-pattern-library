@@ -4,6 +4,10 @@
   --color-secondary-light: #61c7b3;
   --color-neutral: #9Baba4;
   --color-neutral-dark: #403f3f;
+  --color-background: #303030;
+  --color-card:#424242;
+  --color-sidebar: #212121;
+  --color-header:#000;
   --font-primary: Montserrat, sans-serif;
   --font-secondary: "Mystery Quest", cursive;
 }
