@@ -8,7 +8,10 @@
   <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700"> -->
   <link rel="stylesheet" href="https://use.typekit.net/pkc3cir.css">
 </head>
-<body>
+<body class="relative">
+  <a href="#nav">Jump to main content</a>
+  <a href="#main">Jump to main content</a>
+  <main role="main" id="main" tabindex="0">
   {% pattern header/header %}
   {{content}}
   {% pattern footer/footer %}

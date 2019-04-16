@@ -5,3 +5,7 @@
 .contentinfo {
   background-color: var(--color-header);
 }
+
+.contentinfo li {
+  color: #fff;
+}

@@ -33,11 +33,11 @@ patterns:
       - name: button_text
         type: string
         example: "Get Charmed"
-        required: true
+        required: false
       - name: button_url
         type: url
         example: "/products/"
-        required: true
+        required: false
     title: "Main"
     description: |
       Use this banner as the default

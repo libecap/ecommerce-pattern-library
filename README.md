@@ -1,3 +1,11 @@
+# Potato Alchemy
+
+Potato Alchemy uses 1000 year old wizardy to take the best of all the charms, without any of the side effects!
+
+Created by Davey Seeds, A long time alchemist who was tired of phony charms. Alchemy Potatoes have been specially designed so that you can see their magic work in action. Each potato is curated to protect you from specific hexes, spells, curses, potions, and incantations.
+
+---
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
@@ -17,14 +25,6 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 2. Type the following command: `bundle exec jekyll serve`
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
-
----
-
-## Company info
-
-Potato Alchemy uses 1000 year old wizardy to take the best of all the charms, without any of the side effects!
-
-Created by Davey Seeds, A long time alchemist who was tired of phony charms. Alchemy Potatoes have been specially designed so that you can see their magic work in action. Each potato is curated to protect you from specific hexes, spells, curses, potions, and incantations.
 
 ---
 

@@ -44,7 +44,7 @@ b {
   font-weight: bold;
 }
 
-ol, ul, dl, q, {
+ol, ul, dl, q, th {
   font-family: var(--font-primary);
   color: var(--color-secondary-light);
 }
@@ -52,4 +52,17 @@ ol, ul, dl, q, {
 cite {
   font-family: var(--font-secondary);
   color: var(--color-primary);
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid var(--color-neutral);
 }
