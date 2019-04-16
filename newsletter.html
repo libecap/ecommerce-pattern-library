@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div>
+<div class="relative">
   <picture class="img-flex">
     <source media="(min-width:60em)" srcset="/images/smoke-banner-1600.jpg 2x, /images/smoke-banner-1440.jpg 1x">
     <source media="(min-width:38em)" srcset="/images/smoke-banner-960.jpg 2x, /images/smoke-banner-608.jpg 1x">
     <img srcset="/images/smoke-banner-608.jpg 2x, /images/smoke-banner-320.jpg 1x" src="/images/banner-320.jpg" alt="">
   </picture>
-  <div class="absolute pin-tc text-center island max-length">
+  <div class="absolute pin-c text-center island max-length">
     <h1 class="push-1-2 tena">Potato Alchemy</h1>
     <p class="push bold">{{include.text}}</p>
   </div>
