@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="relative">
+<div>
   <picture class="img-flex">
     <source media="(min-width:60em)" srcset="/images/smoke-banner-1600.jpg 2x, /images/smoke-banner-1440.jpg 1x">
     <source media="(min-width:38em)" srcset="/images/smoke-banner-960.jpg 2x, /images/smoke-banner-608.jpg 1x">
     <img srcset="/images/smoke-banner-608.jpg 2x, /images/smoke-banner-320.jpg 1x" src="/images/banner-320.jpg" alt="">
   </picture>
-  <div class="absolute pin-c text-center island max-length">
+  <div class="absolute pin-tc text-center island max-length">
     <h1 class="push-1-2 tena">Potato Alchemy</h1>
     <p class="push bold">{{include.text}}</p>
   </div>
@@ -18,39 +18,11 @@ layout: default
 </div>
   <main class="wrapper pad-t">
   <div class="grid">
+    {% for product in site.products limit:2 %}
     <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
-      <div class="pad-b-2 unit-content-distribute content-fill">
-        <article class="action-card banner unit-content-distribute content-fill">
-          <div class="unit-content-distribute content-fill">
-            <div class="relative">
-              <menu class="action-tools-top absolute pin-lt list-group-inline island-1-2">
-                <li>
-                  <button class="btn action-btn">
-                    <i class="icon i-64">
-                      <svg><use xlink:href="{{include.data.icon}}" /></svg>
-                    </i>
-                  </button>
-                </li>
-              </menu>
-              <img class="img-flex" aria-details="#potato-type" src="{{include.data.image}}" alt="potato-charm">
-            </div>
-            <div class="island bg-colour max-length content-fill relative">
-              <h2 class="push-1-8">{{include.title}}</h2>
-              <p class="pad-b-2">{{include.details}}</p>
-              <div class="leftside pad-t absolute pin-lb">
-                <p class=" price push-0">${{include.price}}</p>
-              </div>
-              <div class="rightside pad-b-1-4 absolute pin-rb">
-              {% pattern buttons/buy text="Add to Cart" url=/products/ %}
-              </div>
-            </div>
-          </div>
-        </article>
+        {% pattern cards/product-card data=product %}
       </div>
-
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-2">
-      {% pattern cards/product-card data=Product %}
+      {% endfor %}
     </div>
     <section class="unit xs-1 s-1 m-1 l-1">
       <table>
